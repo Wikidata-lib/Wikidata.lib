@@ -1,12 +1,12 @@
 ### Teilnehmer: 
-Felix Naumann
-Anja Jentzsch
-Felix Niemeyer
-Moritz Finke
-Sebastian Brückner
-Christian Dullweber
-Alexander Lehmann 
-Virginia Weidhaas
+Felix Naumann,
+Anja Jentzsch,
+Felix Niemeyer,
+Moritz Finke,
+Sebastian Brückner,
+Christian Dullweber,
+Alexander Lehmann,
+Virginia Weidhaas,
 
 ### Kooperationstreffen am 1.11.2013
  Welcher Raum wird verwendet? Seminarraum, Projektraum, d school?
