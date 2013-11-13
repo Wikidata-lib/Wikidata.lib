@@ -1,4 +1,4 @@
-# baisc idea/motivation:
+### baisc idea/motivation:
 
 "Wikidata could be a lot smarter than it is right now e.g. by suggesting fields
 to fill and probable values. 
@@ -10,9 +10,9 @@ the ones that are used most for these properties first. Think of it as
 something very similar to the famous 'people who bought x also bought y'
 systems." (Quim Gil) - https://bugzilla.wikimedia.org/show_bug.cgi?id=46555
 
-# assumptions/reflections:
+### assumptions/reflections:
 
-# more detailed ideas regarding implementation:
+### more detailed ideas regarding implementation:
 
 
 
