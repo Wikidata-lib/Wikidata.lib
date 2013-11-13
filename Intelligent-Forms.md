@@ -14,7 +14,7 @@ systems." (Quim Gil) - https://bugzilla.wikimedia.org/show_bug.cgi?id=46555
 
 There are two major use cases when it comes to suggesting properties:
 
-1. Suggesting generally helpful properties for a newly created item  //Todo: wie kommt man darau
+1. Suggesting generally helpful properties for a newly created item  
 2. Suggesting properties for an item based on its preexisting properties
 
 ### more detailed ideas regarding implementation:
