@@ -16,6 +16,8 @@ There are two major use cases when it comes to suggesting properties:
 
 1. Suggesting generally helpful properties for a newly created item 
 
+Even though there is not an official ontology for the items in wikidata, there are still "classifying" properties or classifiers (e.g InstanceOf, SubclassOf etc.)  
+
 2. Suggesting properties for an item based on its preexisting properties
 Algorithms:
   * [Pairwise Attribte Correlation Table Algorithm ](https://github.com/Wikidata-lib/Wikidata.lib/wiki/Pairwise-attribute-corellation-table-algorithm)
