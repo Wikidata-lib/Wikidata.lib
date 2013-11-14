@@ -14,7 +14,10 @@ systems." (Quim Gil) - https://bugzilla.wikimedia.org/show_bug.cgi?id=46555
 
 There are two major use cases when it comes to suggesting properties:
 
-1. Suggesting generally helpful properties for a newly created item  
+1. Suggesting generally helpful properties for a newly created item 
+Algorithms:
+**#1** Pairwise attribute cohesion table.
+**#2** ...
 2. Suggesting properties for an item based on its preexisting properties
 
 ### more detailed ideas regarding implementation:
