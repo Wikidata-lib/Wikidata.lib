@@ -16,8 +16,11 @@ There are two major use cases when it comes to suggesting properties:
 
 1. Suggesting generally helpful properties for a newly created item 
 Algorithms:
+
 **#1** Pairwise attribute cohesion table.
+
 **#2** ...
+
 2. Suggesting properties for an item based on its preexisting properties
 
 ### more detailed ideas regarding implementation:
