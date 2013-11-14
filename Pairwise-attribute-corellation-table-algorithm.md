@@ -13,6 +13,7 @@ todo: graphics
 
 ## Compute attribute ranking for certain set of properties
 Ma = certain set of properties.
+
 the Rank for a property p = for each x in Ma multiply: (p,x)
 
 
