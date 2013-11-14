@@ -1,14 +1,14 @@
 ### baisc idea/motivation:
 
-_"Wikidata could be a lot smarter than it is right now e.g. by suggesting fields_
-_to fill and probable values. _
+"_Wikidata could be a lot smarter than it is right now e.g. by suggesting fields__
+_to fill and probable values._
 
 _For example: when an editor edits an item about a person that is still missing_
 _the date of birth, this should be suggested as a possible property. Or when the_
 _editor is entering the sex of the person, Wikidata should be smart and suggest_
 _the ones that are used most for these properties first. Think of it as_
 _something very similar to the famous 'people who bought x also bought y'_
-_systems."_ (Quim Gil) - https://bugzilla.wikimedia.org/show_bug.cgi?id=46555
+_systems._" (Quim Gil) - https://bugzilla.wikimedia.org/show_bug.cgi?id=46555
 
 ### assumptions/reflections:
 
