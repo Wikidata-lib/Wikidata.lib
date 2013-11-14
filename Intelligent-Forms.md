@@ -14,7 +14,7 @@ _systems._" (Quim Gil) - https://bugzilla.wikimedia.org/show_bug.cgi?id=46555
 
 There are two major use cases when it comes to suggesting properties:
 
-**1)Suggesting generally helpful properties for a newly created item **
+**1) Suggesting generally helpful properties for a newly created item **
 
 Even though there is not an official ontology for the items in wikidata, there are still "classifying" properties/classifiers (e.g InstanceOf, SubclassOf, memberOf etc.) having classes as their values.
 Items that belong to the same class often by nature have a lot in common. This makes knowing an item's classifiers and their concrete values very useful for suggesting properties.
