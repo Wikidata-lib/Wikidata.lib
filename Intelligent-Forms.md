@@ -16,8 +16,9 @@ There are two major use cases when it comes to suggesting properties:
 
 1. Suggesting generally helpful properties for a newly created item 
 
-Even though there is not an official ontology for the items in wikidata, there are still "classifying" properties/classifiers (e.g InstanceOf, SubclassOf etc.) having classes as their values.
-Items that belong to the same class often (by nature) have a lot in common. This makes knowing classifiers and their values  
+Even though there is not an official ontology for the items in wikidata, there are still "classifying" properties/classifiers (e.g InstanceOf, SubclassOf, memberOf etc.) having classes as their values.
+Items that belong to the same class often (by nature) have a lot in common. This makes knowing an item's classifiers and their concrete values very useful for suggesting properties.
+Therefore a selection of widely used/important classifiers could be suggested as initial properties to a users that wants to create a new item. After the property value was filled in the user can profit from the derived suggestions in the further process.
 
 2. Suggesting properties for an item based on its preexisting properties
 Algorithms:
