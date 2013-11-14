@@ -18,7 +18,7 @@ There are two major use cases when it comes to suggesting properties:
 
 2. Suggesting properties for an item based on its preexisting properties
 Algorithms:
-  * [Pairwise attribute cohesion table](Pairwise attribute cohesion table Algorithm)
+  * [https://github.com/Wikidata-lib/Wikidata.lib/wiki/Pairwise-attribute-corellation-table-algorithme](Pairwise attribute cohesion table Algorithm)
   * ...
 
 ### more detailed ideas regarding implementation:
