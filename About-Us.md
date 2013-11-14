@@ -1,4 +1,5 @@
-We are the Wikidata.lib Bachelor Project at the chair of Prof. Dr. Naumann "Information Systems".We will work on Wikidata from October 2013 until June 2014. Our mentor is Anja Jentzsch.
+_" Wikidata.lib is a set of tools and libraries developed by a bachelor project at Hasso-Plattner-Institute from October 2013 through June 2014."_
+We are the Wikidata.lib bachelor project at the chair of Prof. Dr. Naumann "Information Systems". We will work on Wikidata from October 2013 until June 2014. Our mentor is Anja Jentzsch.
 Every member is a student of the Hasso-Plattner-Institute in  their fifth semester.
 
 Virginia Weidhaas
