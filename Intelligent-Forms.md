@@ -27,7 +27,7 @@ This can also
 
 **2) Suggesting properties for an item based on its preexisting properties**
 
-Two major steps are necessary in order to be able to do ## 2):
+Two major steps are necessary in order to be able to do 2):
 
 1) For every property we need to know how often it is used in general and how often it appears in combination with every single other property. So that given the properties p1 and p2 we can determine the probability for p1 being used together with p2 (and of course the other way around).
 
