@@ -29,13 +29,13 @@ This can also
 
 Two major steps are necessary in order to be able to do 2):
 
-1) For every property we need to know how often it is used in general and how often it appears in combination with every single other property. So that given the properties p1 and p2 we can determine the probability for p1 being used together with p2 (and of course the other way around).
+1. For every property we need to know how often it is used in general and how often it appears in combination with every single other property. So that given the properties p1 and p2 we can determine the probability for p1 being used together with p2 (and of course the other way around).
 
 This information can intuitively be stored in a table like structure. This way it is easy to look up the probability of a certain property combination by just finding the corresponding row and clumn.
 
 The table can be precomputed and only needs to be updated from time to time (updates could be done incrementally)
 
-2) The next step for suggesting new properties for an item based on its preexisting properties is to create a ranking including every property, which is not already used to describe the item on hand.
+2. The next step for suggesting new properties for an item based on its preexisting properties is to create a ranking including every property, which is not already used to describe the item on hand.
 This can be done using the information that is stored in the table. An intuitiv algorithm for ranking a certain property p could look like tihs:
 
  * look up the probability for all combinations that involve p being used in connection with one of the preexisting properties 
