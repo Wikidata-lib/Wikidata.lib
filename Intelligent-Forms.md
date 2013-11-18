@@ -47,7 +47,7 @@ As the last step the highest ranking properties should be suggested as additiona
 ### more detailed ideas regarding implementation:
 
 Algorithms:
-  * [Pairwise Attribte Correlation Table Algorithm ](https://github.com/Wikidata-lib/Wikidata.lib/wiki/Pairwise-attribute-corellation-table-algorithm)
+  
   * ...
 
 
