@@ -22,7 +22,7 @@ Therefore a selection of widely used/important classifiers could be suggested as
 Due to the fact that there are no predefined/fixed classifiers the first step is to find a way to identify properties that serve as classifiers - a few thoughts regarding this issue:
 * Only properties with the (value) type 'item' should be considered a potential classifier since a class that is used as the value for a classifier is most likely going to be represented by an item in wikidata.
 * Classifier by definition group together similiar objects. So in order to decide if a certain property is potentially used as a classifier it is a good idea to compare items that have the same value for this property and look for patterns like common properties or property values.
-Comming from a different angle one could also use the fact that the sole information that an item has a certain classifier (not considering its value) usually is not very valuable for finding patterns/suggesting properties
+Comming from a different angle one could also use the fact that the sole information that an item has a certain classifier (not considering its value) is in most cases not very valuable for finding patterns/suggesting properties
 * Frequentliy used classifiers are more relevant for the described use case, because they are more likely to be an useful suggestion for a new item
 
 **2) Suggesting properties for an item based on its preexisting properties**
