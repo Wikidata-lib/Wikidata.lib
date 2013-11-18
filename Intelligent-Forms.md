@@ -21,16 +21,34 @@ Therefore a selection of widely used/important classifiers could be suggested as
 
 Due to the fact that there are no predefined/fixed classifiers the first step is to find a way to identify properties that serve as classifiers - a few thoughts regarding this issue:
 * Only properties with the type 'item' should be considered a potential classifier since a class that is used as the value for a classifier is most likely going to be represented by an item in wikidata.
-* Classifier by definition group together similiar objects. So in order to decide if a certain property is potentially used as a classifier it is a good idea to compare items that have the same value for this property and look for patterns like for example common properties or property values. 
-* For the described use case classifiers that are frequently used are more important because they are more likely to be an useful suggestion for a new item
+* Classifier by definition group together similiar objects. So in order to decide if a certain property is potentially used as a classifier it is a good idea to compare items that have the same value for this property and look for patterns like for example common properties or property values.
+This can also 
+* Frequentliy used classifiers are more relevant for the described use case, because they are more likely to be an useful suggestion for a new item
 
 **2) Suggesting properties for an item based on its preexisting properties**
+
+Two major steps are necessary in order to be able to do 2):
+
+1) For every property we need to know how often it is used in general and how often it appears in combination with every single other property. So that given the properties p1 and p2 we can determine the probability for p1 being used together with p2 (and of course the other way around).
+
+This information can intuitively be stored in a table like structure. This way it is easy to look up the probability of a certain property combination by just finding the corresponding row and clumn.
+
+The table can be precomputed and only needs to be updated from time to time (updates could be done incrementally)
+
+2) The next step for suggesting new properties for an item based on its preexisting properties is to create a ranking including every property, which is not already used to describe the item on hand.
+This can be done using the information that is stored in the table. An intuitiv algorithm for ranking a certain property p could look like tihs:
+
+ * look up the probability for all combinations that involve p being used in connection with one of the preexisting properties 
+
+ * compute the arithmetic mean of all the probabilities and use it for the ranking.
+
+As the last step the highest ranking properties should be suggested as additional attributes for the item on hand
+
+### more detailed ideas regarding implementation:
 
 Algorithms:
   * [Pairwise Attribte Correlation Table Algorithm ](https://github.com/Wikidata-lib/Wikidata.lib/wiki/Pairwise-attribute-corellation-table-algorithm)
   * ...
-
-### more detailed ideas regarding implementation:
 
 
 
