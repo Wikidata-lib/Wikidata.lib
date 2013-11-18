@@ -44,6 +44,8 @@ This can be done using the information that is stored in the table. An intuitiv 
 
 As the last step the highest ranking properties should be suggested as additional attributes for the item on hand
 
+Once classifiers as described in 1) are identified classifier/value combinations can be integrated in the previously mentioned table so that they - like properties - can be suggested and used to suggest properties or other classifier/value pairs respectively.
+
 ### more detailed ideas regarding implementation:
 
 Algorithms:
