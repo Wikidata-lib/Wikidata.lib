@@ -14,3 +14,8 @@ Implementation
 ==============
 - MediaWiki extension
 - Publishes arbitrary changes to a predefined "Hub"
+
+Contact
+=======
+- [Alexander Lehmann](https://github.com/lalexf) (alexander.lehmann[at]student.hpi.uni-potsdam.de)
+- [Sebastian Brückner](https://github.com/invliD) (sebastian.brueckner[at]student.hpi.uni-potsdam.de)
