@@ -2,7 +2,7 @@ Motivation
 ==========
 The current method of retrieving updates involves the MediaWiki extension [OAIRepository](http://www.mediawiki.org/wiki/Extension:OAIRepository) and the [OAI-PMH](http://www.openarchives.org/pmh/) protocol.
 Since the deployment of the extension is supposed to be phased out soon, we need a replacement.
-Our idea is to use PubSubHubbub instead, which uses a pushing mechanism, instead of requiring subscribers to use [polling](http://code.google.com/p/pubsubhubbub/wiki/WhyPollingSucks).
+Our idea is to use the protocol [PubSubHubbub](http://code.google.com/p/pubsubhubbub/) instead, which uses a pushing mechanism, instead of requiring subscribers to use [polling](http://code.google.com/p/pubsubhubbub/wiki/WhyPollingSucks).
 
 Links
 =====
