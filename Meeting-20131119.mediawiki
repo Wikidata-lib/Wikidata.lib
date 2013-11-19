@@ -1,6 +1,7 @@
 ===General Feedback===
 * Send agenda earlier (earlier than 1 day in advance)
 * use IRC
+* use [https://etherpad.wikimedia.org|Etherpad] for Meetings
 
 === Suggestor ===
 '''Last week done:'''
