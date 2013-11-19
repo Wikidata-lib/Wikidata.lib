@@ -1,0 +1,62 @@
+===General Feedback===
+* Send agenda earlier (earlier than 1 day in advance)
+* use IRC
+
+=== Suggestor ===
+'''Last week done:'''
+* extension created
+* found out how to display data
+* created table with feature combinations
+* load test data into database
+* load complet database dump
+* there is no part of a dumps, there for rewrite/change importsrcript
+** use api for parts of the data
+** dump is in internal json representation
+
+'''Feedback:'''  
+* Modular development -> separation of suggester engine and connection to Wikidata
+** suggester engine should be replaceable
+* test some external suggester implementations
+** departmental working
+** closer look at the work from Nilesh Chakraborty
+** comparison of some (external) suggestor implementations
+* exact specification of the architecture and data structure
+** live update of the data maybe not possible if suggester work on a extra database
+* '''Goal''': working product! Connection to Wikidata is very important.
+
+=== PubSubHubBub ===
+'''Last week done:'''
+* read specification of the protokoll
+* considered reference project from google
+* PubSubHubBub has 3 components; Hub, Subscriber, Publisher
+** Hub, Subscriber exist
+** Publisher exists, but must be integrated into the Mediawiki code
+** Hub must be scalable
+* started with an extension for the publisher component in MediaWiki.
+* viewed at OHI-PMH
+** bad code example
+** use Wikidata for better code examples
+* Google has a public Hub
+** use tot test our extension
+** maybe it is possible to use a google hub for MediaWiki...
+
+'''Feedback'''
+* Is it possible to send more data to Hub or Subscriber? (except the URL)
+* performance is very important
+** dependence on external services is poor
+** call must not block by external services
+** use the [http://en.wikipedia.org/wiki/Help:Job_queue| Job queue]
+
+=== Access to Wikidata Labs ===
+* formally apply
+* public IPv4 addresses are rare
+
+
+=== Documentation ===
+* remains until further notice on github
+* maybe problems with external feedback
+
+=== Organizational ===
+* next hangout next week
+* personal meeting probably until next year 
+** on agenda next week
