@@ -15,5 +15,5 @@ Alexander Lehmann
 Sebastian Brückner
 
 ### Current projects
- * [Intelligent Forms](https://github.com/Wikidata-lib/Wikidata.lib/wiki/Intelligent-Forms)
+* [Intelligent Forms](https://github.com/Wikidata-lib/Wikidata.lib/wiki/Intelligent-Forms)
 * [PubSubHubBup Component](https://github.com/Wikidata-lib/Wikidata.lib/wiki/PubSubHubbub)
