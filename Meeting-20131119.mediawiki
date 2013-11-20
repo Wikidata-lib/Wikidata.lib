@@ -1,6 +1,10 @@
+===Attendees===
+* Daniel Kinzler, Lydia Pintscher, Abraham Taherivand (WMDE)
+* Virginia Weidhaas, Felix Niemeyer, Moritz Finke, Christian Dullweber, Alexander Lehmann, Sebastian Brückner, Anja Jentzsch (HPI)
+
 ===General Feedback===
 * Send agenda earlier (earlier than 1 day in advance)
-* use IRC
+* use Wikidata IRC channel
 * use [https://etherpad.wikimedia.org| Etherpad] for Meetings
 
 === Suggestor ===
@@ -38,7 +42,7 @@
 ** bad code example
 ** use Wikidata for better code examples
 * Google has a public Hub
-** use tot test our extension
+** use to test our extension
 ** maybe it is possible to use a google hub for MediaWiki...
 
 '''Feedback'''
@@ -49,9 +53,8 @@
 ** use the [http://en.wikipedia.org/wiki/Help:Job_queue| Job queue]
 
 === Access to Wikidata Labs ===
-* formally apply
+* apply formally
 * public IPv4 addresses are rare
-
 
 === Documentation ===
 * remains until further notice on github
