@@ -1,4 +1,4 @@
-== PubSubHubbub ==
+## PubSubHubbub ##
 
 Two git repos? Not indicated which one is cannonical
 
@@ -15,7 +15,7 @@ lib/publisher
 ** service never really different as optional arg in publish_update not used
 * needs tests
 
-== PropertySuggester ==
+## PropertySuggester ##
 
 * Not using composer
 * global scope assumptions
@@ -76,7 +76,7 @@ ext.PropertySuggester.js
 * ext.PropertySuggester.js - global scope - needs review by JS person
 * implicitly defined vars
 
-== General suggestions ==
+## General suggestions ##
 
 * Seperate concerns and abstraction levels on both method and class level
 * Use namespaces and adhere to PSR-0
