@@ -11,8 +11,8 @@ lib/publisher
 * not MW style
 * ?>
 * http_post should be injected service
-** options not really part of that
-** service never really different as optional arg in publish_update not used
+  * options not really part of that
+  * service never really different as optional arg in publish_update not used
 * needs tests
 
 ## PropertySuggester ##
